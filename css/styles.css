@@ -3,6 +3,7 @@ body {
   font-family: "Inter", sans-serif;
   color: var(--baseColor);
   background: var(--baseBackground);
+  transition: 0.3s all ease;
 }
 
 :root {
@@ -71,6 +72,7 @@ body {
   padding-bottom: 100px;
   border-radius: 0 0 20px 20px;
   padding-top: 2em;
+  transition: 0.3s all ease;
 }
 .header-total {
   color: val(--gray);
@@ -116,8 +118,8 @@ h1 {
 .card.instagram::before {
   background: linear-gradient(
     to right,
-    var(--instagram) 0%,
-    var(--instagram-2) 100%
+    hsl(37, 97%, 70%) 0%,
+    hsl(329, 70%, 58%) 100%
   );
 }
 .card.youtube::before {
